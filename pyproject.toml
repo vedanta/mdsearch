@@ -1,0 +1,13 @@
+[project]
+name = "mdsearch"
+version = "0.1.0"
+description = "Search a folder of Markdown files by keyword, ranked with BM25"
+requires-python = ">=3.13"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+pythonpath = [".", "tests"]
+testpaths = ["tests"]
